@@ -1,6 +1,6 @@
 name: flutter_webrtc_socketio_videocall
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -10,9 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_webrtc:  ^0.6.5
-  socket_io_client: ^1.0.1
-  get: ^4.3.4
+  flutter_webrtc:
+  socket_io_client:
+  get:
 
 dev_dependencies:
   flutter_test:

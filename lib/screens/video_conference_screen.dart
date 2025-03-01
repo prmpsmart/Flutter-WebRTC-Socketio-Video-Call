@@ -33,10 +33,8 @@ class VideoConferenceScreen extends GetView<VideoConferenceController> {
           ? controller.connectionState !=
               RTCPeerConnectionState.RTCPeerConnectionStateConnected
           : false,
-      child: WillPopScope(
-        onWillPop: () async {
-          return false;
-        },
+      child: PopScope(
+        canPop: false,
         child: Scaffold(
           body: Column(
             children: [
